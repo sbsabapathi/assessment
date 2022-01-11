@@ -6,6 +6,12 @@
 	<artifactId>ex-hotelbooking</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<!--This project is built against Java 11. If you are using Java 8, change it to 1.8 below-->
+
+	<properties>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
+	</properties>
 
 	<dependencies>
 
@@ -47,11 +53,11 @@
 			<version>5.0.3</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>1.16.22</version>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>org.projectlombok</groupId>-->
+			<!--<artifactId>lombok</artifactId>-->
+			<!--<version>1.16.22</version>-->
+		<!--</dependency>-->
 
 
 
