@@ -1,7 +1,7 @@
 # Hotel booking test
 This project contains tests for fictious Hotel booking application. The tests are broadly grouped as Positive and Negative tests. 
 
-##Pre-requisites
+## Pre-requisites
 Install and configure Java and Maven
 
 ## Run the tests
