@@ -51,7 +51,7 @@ public class HomePage extends BasePage {
 	}
 
 	public void enterFirstName(String firstName) {
-		 if(!firstName.isBlank() || !firstName.isEmpty()){
+		 if(!firstName.isEmpty()){
 			 Random random = new Random();
 			 firstNameValue = firstName + random.nextInt(10000);
 		 }else {
