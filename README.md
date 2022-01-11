@@ -3,6 +3,7 @@ This project contains tests for fictious Hotel booking application. The tests wr
 
 ## Pre-requisites
 Install and configure Java and Maven
+Note - This project is build on Java 11. If you are using different version of Java, please mention the version in properties in pom.xml file
 
 ## Run the tests
 mvn clean install
