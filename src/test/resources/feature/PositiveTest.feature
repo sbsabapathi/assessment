@@ -18,11 +18,11 @@ Feature: Verify Hotel Booking Functionality
     Examples:
       | firstname | lastname | price               | deposit | checkoutdate | checkindate |
       | Jack      | Smith    | 100                 | true    | 2022-01-15   | 2022-01-16  |
-#      | Jack      | Smith    | 100                 | true    | 2022/01/15   | 2022/01/16  |
-#      | Jack      | Smith    | 100                 | true    | 01-15-2022   | 01-16-2022  |
-#      | Jack      | Smith    | 100                 | false   | 2022-01-15   | 2022-01-16  |
-#      | Jack      | Smith    | 100                 | false   | 2022-01-15   | 2022-01-16  |
-#      | !@;$%^&*  | Smith    | 100                 | false   | 2022-01-15   | 2022-01-16  |
-#      | Jack      | !@;$%^&* | 100                 | false   | 2022-01-15   | 2022-01-16  |
-#      | Jack      | Smith    | 0.0001              | true    | 2022-01-15   | 2022-01-16  |
-#      | Jack      | Smith    | 1111111111111111111 | true    | 2022-01-15   | 2022-01-16  |
+      | Jack      | Smith    | 100                 | true    | 2022/01/15   | 2022/01/16  |
+      | Jack      | Smith    | 100                 | true    | 01-15-2022   | 01-16-2022  |
+      | Jack      | Smith    | 100                 | false   | 2022-01-15   | 2022-01-16  |
+      | Jack      | Smith    | 100                 | false   | 2022-01-15   | 2022-01-16  |
+      | !@;$%^&*  | Smith    | 100                 | false   | 2022-01-15   | 2022-01-16  |
+      | Jack      | !@;$%^&* | 100                 | false   | 2022-01-15   | 2022-01-16  |
+      | Jack      | Smith    | 0.0001              | true    | 2022-01-15   | 2022-01-16  |
+      | Jack      | Smith    | 1111111111111111111 | true    | 2022-01-15   | 2022-01-16  |
