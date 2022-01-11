@@ -1,5 +1,5 @@
 # Hotel booking test
-This project contains tests for fictious Hotel booking application. The tests are broadly grouped as Positive and Negative tests. 
+This project contains tests for fictious Hotel booking application. The tests written using Java, Selenium, Cucumber with Page object pattern.  The tests are broadly grouped as Positive and Negative tests. 
 
 ## Pre-requisites
 Install and configure Java and Maven
