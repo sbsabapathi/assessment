@@ -48,6 +48,7 @@ public class HomePage extends BasePage {
 	public void openWebsite() {
 		// Loading url in the browser
 		driver.get(PropertyReader.getProperty("application.url"));
+        Assert.assertEquals(driver.getTitle(), "Hotel booking form");
 	}
 
 	public void enterFirstName(String firstName) {
